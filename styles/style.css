@@ -71,6 +71,7 @@ aside
 {
     grid-area: aside;
     background-color: var(--welcome-bg);
+    text-align: center;
 }
 
 h2
@@ -150,11 +151,6 @@ footer
         justify-content: space-around;
     }
 
-    aside
-    {
-        text-align: center;
-    }
-
     main
     {
         display: grid;
@@ -203,4 +199,13 @@ footer
             'aside a'
             'aside b';
     }
+}
+
+/* DECORATION */
+
+#cpp-logo
+{
+    width: 50%;
+    height: auto;
+    margin-top: 1.5rem;
 }
